@@ -14,7 +14,7 @@ Usage
 To run the code, open a terminal or command prompt and navigate to the directory where the code is located. Use the following command:
 
 
-python script.py -i input_graph.graphml -s PDS_SIZE -o output_file.txt -p is_parallel
+python PDSGeneFinderV1.py -i input_graph.graphml -s PDS_SIZE -o output_file.txt -p is_parallel
 
 Replace script.py with the actual filename of the code, and the following parameters:
 
@@ -26,4 +26,4 @@ Replace script.py with the actual filename of the code, and the following parame
 Example
 Suppose you have a graph file named my_graph.graphml, and you want to find all PDS sets of size 3 using parallel processing. You also have a text file named my_text.txt. To achieve this, run the following command:
 
-python script.py -i my_graph.graphml -s 3 -o output_results.txt -p 1
+python PDSGeneFinderV1.py -i my_graph.graphml -s 3 -o output_results.txt -p 1

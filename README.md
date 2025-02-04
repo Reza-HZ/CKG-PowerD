@@ -19,9 +19,13 @@ python PDSGeneFinderV1.py -i input_graph.graphml -s PDS_SIZE -o output_file.txt 
 Replace script.py with the actual filename of the code, and the following parameters:
 
 -i or --Input_filename: Path to the input graph file in GraphML format.
+
 -s or --pds_size: The size of the PDS sets to find.
+
 -o or --Output_filename: (Optional) The desired filename for the output file. If not provided, the default filename will be used.
+
 -p or --is_parallel: (Optional) A flag to indicate whether to use multiprocessing (1) or not (0) when finding PDS sets. If not provided, the default value is 0 (no multiprocessing).
+
 
 Example
 Suppose you have a graph file named my_graph.graphml, and you want to find all PDS sets of size 3 using parallel processing. You also have a text file named my_text.txt. To achieve this, run the following command:

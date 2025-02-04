@@ -16,7 +16,6 @@ To run the code, open a terminal or command prompt and navigate to the directory
 
 python PDSGeneFinderV1.py -i input_graph.graphml -s PDS_SIZE -o output_file.txt -p is_parallel
 
-Replace script.py with the actual filename of the code, and the following parameters:
 
 -i or --Input_filename: Path to the input graph file in GraphML format.
 
